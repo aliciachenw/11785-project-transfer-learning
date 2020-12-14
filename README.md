@@ -11,6 +11,10 @@ We use git submodule to organize our work. The folders include:
 
 11785-project-jianchang: active learning for faster R-CNN (by Jianchang)
 
+11785-project-active-learning-for-YOLO: active learning for YOLO and active learning loss (by Seo Young)
+
+11785-project-ranzhang-yolo: self-training for YOLO (by Ran)
+
 # Dataset
 Download the FLIR thermal dataset: https://www.flir.com/oem/adas/adas-dataset-form/
 
