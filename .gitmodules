@@ -4,3 +4,7 @@
 [submodule "11785-project-jianchang"]
 	path = 11785-project-jianchang
 	url = https://github.com/jianchanghuang/11785-project-jianchang.git
+[submodule "11785-project-ranzhang-yolo"]
+	path = 11785-project-ranzhang-yolo
+	url = https://github.com/RanZhang-CR/PyTorch-YOLOv3.git
+	branch = master
