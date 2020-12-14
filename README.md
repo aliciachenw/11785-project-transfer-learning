@@ -10,3 +10,74 @@ We use git submodule to organize our work. The folders include:
 11785-project: self-training for faster R-CNN (by Wanwen)
 
 11785-project-jianchang: active learning for faster R-CNN (by Jianchang)
+
+# Dataset
+Download the FLIR thermal dataset: https://www.flir.com/oem/adas/adas-dataset-form/
+
+The dataset has this structure:
+
+├──FLIR_ADAS_1_3
+
+|---├── train
+
+|---|---├── Annotated_thermal_8_bit
+
+|---|---|---├── images
+
+|---|---├── RGB
+
+|---|---|---├── images
+
+|---|---├── thermal_8_bit
+
+|---|---|---├── images
+
+|---|---├── thermal_16_bit
+
+|---|---|---├── images
+
+|---|---└── thermal_annotations.json
+
+|---├── val
+
+|---|---├── Annotated_thermal_8_bit
+
+|---|---|---├── images
+
+|---|---├── RGB
+
+|---|---|---├── images
+
+|---|---├── thermal_8_bit
+
+|---|---|---├── images
+
+|---|---├── thermal_16_bit
+
+|---|---|---├── images
+
+|---|---└── thermal_annotations.json
+
+|---├── video
+
+|---|---├── Annotated_thermal_8_bit
+
+|---|---|---├── images
+
+|---|---├── RGB
+
+|---|---|---├── images
+
+|---|---├── thermal_8_bit
+
+|---|---|---├── images
+
+|---|---├── thermal_16_bit
+
+|---|---|---├── images
+
+|---|---└── thermal_annotations.json
+
+|---└── ReadMe
+
+We use the images in thermal_8_bit for training and testing.
