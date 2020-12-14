@@ -1,3 +1,6 @@
 [submodule "11785-project"]
 	path = 11785-project
 	url = https://github.com/aliciachenw/11785-project
+[submodule "11785-project-jianchang"]
+	path = 11785-project-jianchang
+	url = https://github.com/jianchanghuang/11785-project-jianchang.git
