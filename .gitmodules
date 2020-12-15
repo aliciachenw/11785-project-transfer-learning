@@ -8,6 +8,3 @@
 	path = 11785-project-ranzhang-yolo
 	url = https://github.com/RanZhang-CR/PyTorch-YOLOv3.git
 	branch = master
-[submodule "11785-project-active-learning-for-YOLO"]
-	path = 11785-project-active-learning-for-YOLO
-	url = https://github.com/ashley-kim521/11785-project-active-learning-for-YOLO.git
